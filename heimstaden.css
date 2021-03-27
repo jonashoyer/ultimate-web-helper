@@ -1,0 +1,8 @@
+.info-grid-item {
+  padding: 0 8px 4px;
+  flex: unset !important;
+}
+
+.info-grid-item img {
+  display: none;
+}

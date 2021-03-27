@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Ultimate Web Helper",
+  "description": "",
+  "version": "1.0",
+
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.boligportal.dk/*"],
+      "js": ["boligportal.js"],
+      "css": ["boligportal.css"]
+    }, {
+      "matches": ["https://*.coinmarketcap.com/*"],
+      "css": ["coinmarketcap.css"]
+    }, {
+      "matches": ["https://*.heimstaden.dk/*"],
+      "js": ["heimstaden.js"],
+      "css": ["heimstaden.css"]
+    }, {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["youtube.js"]
+    }
+  ]
+}

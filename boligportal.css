@@ -1,0 +1,17 @@
+div.SRP__AdPopup {
+  height: unset;
+  max-height: 800px;
+  max-width: 800px;
+}
+
+div.SRP__AdPopup__List {
+  max-height: 800px;
+}
+
+@media (min-width: 992px) {
+  div.SRP__AdPopup {
+    left: unset;
+    right: 16px;
+    bottom: 16px;
+  }
+}
