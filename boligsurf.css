@@ -1,0 +1,3 @@
+.carousel-inner > .item {
+  transition-duration: 115ms !important;
+}

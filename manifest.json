@@ -24,6 +24,9 @@
     }, {
       "matches": ["https://*.twitch.tv/*"],
       "js": ["twitch.js"]
+    }, {
+      "matches":["https://*.boligsurf.dk/*"],
+      "css": ["boligsurf.css"]
     }
   ]
 }
